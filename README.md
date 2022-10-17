@@ -12,4 +12,4 @@ Tras esto la ejecución es correcta y al ejecutar `./runTests` se obtiene el sig
 
 Imagen de tests pasados:
 
-<img src="testPassed.png"></img>
+<img src="testPassed.PNG"></img>
