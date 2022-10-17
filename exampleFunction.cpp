@@ -8,7 +8,7 @@ unsigned int wrapFunctionAdd(unsigned int ui_a, unsigned int ui_b) {
   unsigned int usum;
 
   if(UINT_MAX - ui_a < ui_b) {
-    usum = UINT_MAX;
+    usum = 0;
   } else {
     usum = ui_a + ui_b;
   }
@@ -24,7 +24,7 @@ unsigned int wrapFunctionMul(unsigned int ui_a, unsigned int ui_b) {
   if(ui_a == 0) {
     umul = 0;
   } else if(ui_b > UINT_MAX / ui_a) {
-    umul = UINT_MAX;
+    umul = 1;
   } else {
     umul *= ui_b;
   }
